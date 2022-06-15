@@ -1,0 +1,4 @@
+# Modèle créé le : Mon Jun 13 12:27:49 CEST 2022 
+Eleve (ID_Joueur, nom_Joueur, Victoires_Joueur, Nuls_Joueur, Defaites_Joueur, Classe_Joueur) 
+Partie (ID_Partie, Resultat_Partie, Temps_Partie, ID_JoueurNoir_Partie, ID_JoueurBlanc_Partie, Date_Partie) 
+Joue (ID_Joueur, ID_Partie) 

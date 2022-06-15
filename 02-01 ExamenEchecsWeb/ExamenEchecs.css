@@ -1,0 +1,38 @@
+/* canvas{
+    border: 1px solid black;
+    border-radius: 2px;
+} */
+
+#plateau{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.case{
+    width : 50px;
+    height: 50px;
+    display: inline-block;
+    border : 1px solid black;
+    box-sizing: border-box;
+}
+
+.black{
+    background-color: black;
+}
+
+#focus{
+    background-color: red;
+}
+
+.target{
+    background-color: aquamarine;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
